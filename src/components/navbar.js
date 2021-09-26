@@ -56,6 +56,7 @@ export const Navbar = ({ children }) => {
                     <GoSearch className="wText second-navbar-text pointer" size={20}/>
                     <span className="navbar-text wText second-navbar-text pointer"> Kids </span>
                     <MdNotifications className="wText second-navbar-text pointer" size={25}/>
+
                     <motion.div
                         className="menu-item"
                         onHoverStart={toggleHoverMenu}
