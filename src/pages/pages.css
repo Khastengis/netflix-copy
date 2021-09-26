@@ -1,0 +1,129 @@
+.navbar {
+    width: 100%;
+    height: 68px;
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wText {
+    color: white;
+}
+.gText {
+    color: #e5e5e5;
+}
+.bText {
+    font-weight: bold;
+}
+.video {
+    width: 100%;
+    height: 800px;
+    background-color: gray;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.space-btwn {
+    display: flex;
+    justify-content: space-around;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.horizontal-scroll-wrapper {
+    scroll-direction: horizontal;
+}
+.poster {
+    border-radius: 9px;
+    padding: 5px;
+    z-index: 15;
+    /*display: inline-block;*/
+}
+.container {
+    background-color: #141414;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+    margin-left: 18px;
+    font-size: 15px;
+}
+.navbar-text {
+    font-size: 15px;
+}
+.second-navbar-text {
+    margin-right: 20px;
+}
+.visibleLi:hover {
+    cursor: pointer;
+}
+.title {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+.menu-item:hover {
+    cursor: pointer;
+}
+
+.dropdown {
+    padding: 7px 2px 7px 2px;
+    width: 170px;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 73px;
+    right: 50px;
+    background-color:rgba(20,20,20, 0.6);
+    padding: 10px;
+    transform-origin: 50% -30px;
+}
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 13.5px;
+}
+.user-name {
+    margin-left: 10px;
+}
+.user-profile {
+    border-radius: 5px;
+}
+.dropdown-item2 {
+    font-size: 13.5px;
+    padding: 3px 0 3px 0;
+}
+.under-text:hover {
+    text-decoration: underline;
+}
+.pointer:hover {
+    cursor: pointer;
+}
+.posters {
+    /*width: 100%;*/
+    /*overflow-x: hidden;*/
+    /*overflow-y: hidden;*/
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.video-container {
+    /*width: 90vw;*/
+    /*height: 90vh;*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow-y: hidden;
+}
