@@ -64,6 +64,7 @@ export const Navbar = ({ children }) => {
                         style={{display: "flex", alignItems: "center"}}
                     >
 
+
                         <img src={Pfp} style={{marginRight: 3, borderRadius: "5px"}}/>
                         <motion.div
                             transition={{delay: 0.2, type: "tween"}}

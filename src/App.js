@@ -13,20 +13,14 @@ const App = () => {
     return (
         <Router>
             <Switch>
-                <Route path="/" exact>
+                <Route path="/home" exact>
                     <Home />
                 </Route>
-            </Switch>
-
-            <Switch>
-                <Route path="/login">
+                <Route path="/" exact>
                     <Login />
                 </Route>
-            </Switch>
-
-            <Switch>
                 <Route path="/player">
-                    <VideoPlayer />
+                    <VideoPlayer/>
                 </Route>
             </Switch>
         </Router>

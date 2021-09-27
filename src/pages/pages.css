@@ -127,3 +127,32 @@ li {
     left: 0;
     overflow-y: hidden;
 }
+.input {
+    border-radius: 3px;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: #333;
+    height: 27px;
+    color: white;
+    outline: none;
+}
+.lText {
+    font-size: 13px;
+}
+.login-container {
+    background-color:rgba(0, 0, 0, 0.85);
+}
+.login-page-container {
+    /*background-image: url(../imgs/bg-image.jpg);*/
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.netflix-bg {
+    filter: blur(1px);
+    filter: brightness(0.4);
+}
